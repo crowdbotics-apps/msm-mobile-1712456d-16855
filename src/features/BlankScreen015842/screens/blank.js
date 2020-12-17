@@ -44,10 +44,10 @@ const styles = StyleSheet.create({
     borderColor: "#ff0000",
     borderStyle: "dotted",
     borderWidth: 2,
-    borderLeftWidth: 2,
-    borderRightWidth: 2,
-    borderTopWidth: 2,
-    borderBottomWidth: 2,
+    borderLeftWidth: 3,
+    borderRightWidth: 3,
+    borderTopWidth: 3,
+    borderBottomWidth: 3,
     lineHeight: 11
   },
   CheckBox_5: {}
