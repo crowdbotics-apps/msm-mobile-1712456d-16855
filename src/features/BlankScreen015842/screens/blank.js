@@ -28,7 +28,7 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Text>Sample text content</Text>
+      <Text style={styles.Text_3}>Sample text content</Text>
       <CheckBox
         title="Checkbox"
         checked={this.state.CheckBox_5}
@@ -38,4 +38,8 @@ export default class Blank extends React.Component {
   )
 }
 
-const styles = StyleSheet.create({ View_1: {}, Text_3: {}, CheckBox_5: {} })
+const styles = StyleSheet.create({
+  View_1: {},
+  Text_3: { borderStyle: "dotted", lineHeight: 11 },
+  CheckBox_5: {}
+})
