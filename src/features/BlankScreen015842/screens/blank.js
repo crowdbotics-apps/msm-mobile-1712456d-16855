@@ -40,6 +40,15 @@ export default class Blank extends React.Component {
 
 const styles = StyleSheet.create({
   View_1: {},
-  Text_3: { borderStyle: "dotted", lineHeight: 11 },
+  Text_3: {
+    borderColor: "#ff0000",
+    borderStyle: "dotted",
+    borderWidth: 2,
+    borderLeftWidth: 2,
+    borderRightWidth: 2,
+    borderTopWidth: 2,
+    borderBottomWidth: 2,
+    lineHeight: 11
+  },
   CheckBox_5: {}
 })
